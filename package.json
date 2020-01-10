@@ -1,0 +1,40 @@
+{
+  "name": "create-express-react-app",
+  "version": "1.0.0",
+  "description": "An attempt to develop a custom zsh script that creates a boilerplate full-stack app with Express, React, Babel, and Webpack.",
+  "main": "index.js",
+  "scripts": {
+    "server-dev": "nodemon ./server/index.js",
+    "react-dev": "webpack -d --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Collin-Snyder/create-express-react-app.git"
+  },
+  "author": "Collin Snyder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Collin-Snyder/create-express-react-app/issues"
+  },
+  "homepage": "https://github.com/Collin-Snyder/create-express-react-app#readme",
+  "dependencies": {
+    "@babel/core": ">=7.7.7",
+    "@babel/preset-env": ">=7.7.7",
+    "@babel/preset-react": ">=7.7.4",
+    "axios": ">=0.19.1",
+    "babel-loader": ">=8.0.6",
+    "bluebird": ">=3.7.2",
+    "cors": ">=2.8.5",
+    "express": ">=4.17.1",
+    "jquery": ">=3.4.1",
+    "lodash": ">=4.17.15",
+    "nodemon": ">=2.0.2",
+    "react": ">=16.12.0",
+    "react-dom": ">=16.12.0"
+  },
+  "devDependencies": {
+    "webpack": ">=4.41.5",
+    "webpack-cli": ">=3.3.10"
+  }
+}
