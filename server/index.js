@@ -1,10 +1,11 @@
 const express = require("express");
+const path = require("path");
 const cors = require("cors");
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 4000;
 
 const app = express();
 
-app.use(express.static("../client/public"));
+app.use(express.static(path.join(__dirname + "/../client/dist/")));
 app.use(express.json());
 app.use(cors());
 
@@ -13,5 +14,5 @@ app.get("/", (req, res) => {
 })
 
 app.listen(port, () => {
-  console.log(`Express server listening on port ${port}!`);
+  console.log(`Express yayyyyy server listening on port ${port}!`);
 });
