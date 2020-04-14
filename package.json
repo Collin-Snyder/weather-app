@@ -1,7 +1,7 @@
 {
-  "name": "create-express-react-app",
+  "name": "weather-app",
   "version": "1.0.0",
-  "description": "An attempt to develop a custom zsh script that creates a boilerplate full-stack app with Express, React, Babel, and Webpack.",
+  "description": "A full-stack weather app",
   "main": "index.js",
   "scripts": {
     "server-dev": "nodemon ./server/index.js",
